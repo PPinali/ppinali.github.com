@@ -1,0 +1,109 @@
+div.art div{
+	display: inline-block;
+	width: 49%;
+
+}
+div.art div.goch{
+	vertical-align: top;
+	background: conic-gradient(rgb(51, 21, 202), rgb(157, 37, 72));
+	
+}
+div.art div.dwat div{
+	vertical-align: top;
+	background-color: white;
+	margin: 10px;
+	flex-wrap: wrap ;
+}
+
+div.art div.goch div{
+	vertical-align: top;
+	width: 100%;
+	margin: 10px;
+}
+
+div.art div.dwat div: hover img{
+	background-color: conic-gradient(rgba(120, 130, 240, 1.0), rgba(10, 20, 30, 1.0));
+}
+div.art div.dwat div  a{
+
+	font-family: agency fb;
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+
+body{
+	background:  conic-gradient(rgb(20, 130, 30), rgb(1, 120, 230), rgb(230, 20, 120));
+}
+header div.container {
+	width: 100%;
+}
+
+header div.container div.imgs {
+	width: 100%;
+	background: conic-gradient(rgb(0, 0, 0), rgb(1, 120, 230), rgb(230, 20, 120));
+}
+ div.txt{
+	position: absolute;
+	color: white;
+	top: 0;
+	font-family: agency fb ;
+	font-size: 40px ;
+	text-align: center;
+	backgroud : rgba(123, 3, 40, 1.0), rgba(30, 40, 250, 1.0);
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+nav.navi{
+	background: white;
+}
+
+nav.navi ul li.bu {
+	display: inline-block;
+	list-style-type: none;
+	background-color: white;
+	padding: 12px;
+}
+nav.navi ul li.bu: hover {
+	background-color: black;
+}
+ header nav.navi ul li.bu a{
+	text-decoration: none ;
+	color: black;
+	font-family: agency bf;
+	font-size: 20px;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+}
+ header nav.navi ul li.bu:hover a{
+	transition: 0.45;
+	color: white;
+	background-color: black ;
+}
+
+
+
+
+
+
+
+
+footer{
+	background: conic-gradient(rgb(121, 210, 230), rgb(1, 120, 230), rgb(230, 20, 120));
+	text-align: center;
+	font-size: 15px;
+}
+
